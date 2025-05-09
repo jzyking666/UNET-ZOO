@@ -9,7 +9,7 @@ The only thing you should do is enter the dataset.py and correct the path of the
 then run ~
 example:
 ```
-python main.py --action train&test --arch UNet --epoch 21 --batch_size 21 
+python main.py --action train&test --arch UNet --epoch 21 --batch_size 21 --dataset your_dataset_name(such as liver)
 ```
 ## RESULTS
 after train and test,3 folders will be created,they are "result","saved_model","saved_predict".
